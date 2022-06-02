@@ -1,242 +1,1044 @@
 <!DOCTYPE html
     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EPE ALRIM SPA </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=display-width, initial-scale=1.0, maximum-scale=1.0,">
+<title>
+    EPE Alrim SPA
+</title>
+
     <style type="text/css">
-        body {
-            Margin: 0;
-            padding: 0;
-            background-color: #f6f9fc;
+        html {
+            width: 100%;
         }
 
-        table {
-            border-spacing: 0;
-        }
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+}
 
-        td {
-            padding: 0;
-        }
+img {
+    display: block !important;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
 
-        img {
-            border: 0;
-        }
-        .wrapper{
-            width:100%;
-            table-layout:fixed;
-            background-color: #f6f9fc;
-            padding-bottom: 40px;
+.ReadMsgBody {
+    width: 100%;
+}
 
-        }
-        .webkit{
-            max-width: 600px;
-            background-color: #ffffff;
-        }
-        .outer{
-            margin: 0 auto;
-            width:100%;
-            max-width: 600px;
-            border-spacing: 0;
-            font-family: sans-serif;
-            color:#4a4a4a;
-        }
-        .three-columns{
-            text-align: center;
-            font-size:0;
-            padding-top: 40px;
-            padding-bottom: 30px;
-        }
+.ExternalClass {
+    width: 100%;
 
-        .three-columns .column{
-            width:100%;
-            max-width:200px;
-            display:inline-block;
-            vertical-align: top;
+}
 
-        }
-        .padding{
-            padding:15px;
-        }
-        .three-columns .content{
-           font-size:15px ;
-           line-height :20px;
-        }
-        a{
-            text-decoration: none ;
-            color: #da3838;
-            font-size:16px ;
-        }
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+    line-height: 100%;
+}
+
+.MsoNormal {
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif !important;
+}
+
+p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.images {
+    display: block !important;
+    width: 100% !important;
+}
+
+.display-button td,
+.display-button a {
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif !important;
+}
+
+.display-button a:hover {
+    text-decoration: none !important;
+}
 
 
-        @media screen and (max-width: 600px) {
-            img.third-img-last{
-            width: 200px !important;
-            max-width: 200px !important;
-           }
-           .padding{
-            padding-right:0!important;
-            padding-left:0!important;
-        }
-        }
+/* MEDIA QUIRES */
+@media only screen and (min-width:799px) {
+    .saf-table {
+        display: table !important;
+    }
 
-        @media screen and (max-width: 400px) {
-            img.third-img{
-            width: 200px !important;
-            max-width: 200px !important;
-           }
+    .main-width {
+        width: 600px;
+    }
 
-        }
-    </style>
+    .width800 {
+        width: 800px !important;
+        max-width: 800px !important;
+    }
+}
+
+@media only screen and (max-width:799px) {
+    body {
+        width: auto !important;
+    }
+
+    .display-width {
+        width: 100% !important;
+    }
+
+    .display-width-inner {
+        width: 600px !important;
+    }
+
+    .padding {
+        padding: 0 20px !important;
+    }
+
+    .res-padding-full {
+        padding: 0px !important;
+    }
+
+    .res-padding-right {
+        padding-right: 0px !important;
+    }
+
+    .res-padding-left {
+        padding-left: 0px !important;
+    }
+
+    .width800 {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .hide-padding {
+        padding: 0px !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .width768 {
+        max-width: 684px !important;
+    }
+
+    .child1-width {
+        width: 56% !important;
+        max-width: 56% !important;
+    }
+
+    .child2-width {
+        width: 44% !important;
+        max-width: 44% !important;
+    }
+
+    .full-width-height {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+}
+
+@media only screen and (max-width:680px) {
+    .child1-width {
+        width: 50% !important;
+        max-width: 50% !important;
+    }
+
+    .child2-width {
+        width: 50% !important;
+        max-width: 50% !important;
+    }
+
+    .res-padding-left {
+        padding-left: 40px !important;
+    }
+
+    .res-padding-right {
+        padding-right: 40px !important;
+    }
+
+    .padding-hide {
+        padding-bottom: 0px !important;
+    }
+
+    .res-attract-height {
+        padding: 20px 10px 0 10px !important;
+    }
+}
+
+@media only screen and (max-width:660px) {
+    .child1-width {
+        width: 50% !important;
+        max-width: 50% !important;
+    }
+
+    .child2-width {
+        width: 50% !important;
+        max-width: 50% !important;
+    }
+
+    .res-padding-left {
+        padding-left: 30px !important;
+    }
+
+    .res-padding-right {
+        padding-right: 30px !important;
+    }
+
+    .res-attract-height {
+        padding: 20px 10px 0 10px !important;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .res-attract-height {
+        padding: 20px 10px 0 10px !important;
+    }
+
+    .child1-width,
+    .child2-width {
+        width: 50% !important;
+        max-width: 50% !important;
+    }
+
+    .res-padding-left {
+        padding-left: 20px !important;
+    }
+
+    .res-padding-right {
+        padding-right: 20px !important;
+    }
+
+    .full-width-height {
+        padding-top: 18px !important;
+        padding-bottom: 18px !important;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    body {
+        width: auto !important;
+    }
+
+    .display-width {
+        width: 100% !important;
+    }
+
+    .display-width-inner,
+    .display-width-child {
+        width: 100% !important;
+    }
+
+    .display-width-child .button-width .display-button {
+        width: auto !important;
+    }
+
+    .res-padding-full {
+        padding: 0 20px !important;
+    }
+
+    .padding-hide {
+        padding: 0px !important;
+    }
+
+    .padding {
+        padding: 0 20px !important;
+    }
+
+    .news-padding-left {
+        padding-left: 10px !important;
+    }
+
+    .news-padding-right {
+        padding-right: 10px !important;
+    }
+
+    .res-center {
+        margin: 0 auto !important;
+        display: table !important;
+    }
+
+    .saf-table {
+        display: block !important;
+    }
+
+    .width282 {
+        width: 282px !important;
+    }
+
+    .res-height20-bottom {
+        padding-bottom: 20px !important;
+    }
+
+    .res-height-top {
+        padding-top: 60px !important;
+    }
+
+    .full-width-height {
+        padding-bottom: 60px !important;
+    }
+
+    .footer-width {
+        width: 170px !important;
+    }
+
+    .div-width {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .res-center {
+        display: table !important;
+        margin: 0 auto !important;
+    }
+
+    .height20 {
+        height: 20px !important;
+    }
+
+    .height30 {
+        height: 30px !important;
+    }
+
+    .hide-height {
+        display: none !important;
+    }
+
+    .txt-center {
+        text-align: center !important;
+    }
+
+    .underline-image img {
+        margin: 0 auto !important;
+    }
+}
+
+@media only screen and (max-width:480px) {
+
+    .display-width table,
+    .display-width-child2 table {
+        width: 100% !important;
+    }
+
+    .display-width .button-width .display-button {
+        width: auto !important;
+    }
+
+    .display-width-child .footer-width {
+        width: 170px !important;
+    }
+
+    .display-width .width282 {
+        width: 282px !important;
+    }
+
+    .div-width {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .display-width table {
+        width: 100% !important;
+    }
+
+    .display-width .button-width .display-button {
+        width: auto !important;
+    }
+
+    .display-width-child .width282 {
+        width: 100% !important;
+    }
+}
+</style>
+
+
 </head>
 
 <body>
-<center class="wrapper">
-    <div class="webkit">
-        <table class="outer" align="center">
+    <!-- view in browser -->
+    <table align="center" bgcolor="#eeeeee" border="0" cellpadding="0" cellspacing="0" width="100%"
+        data-module="View In Browser" data-bgcolor="Main BG">
+        <tbody>
             <tr>
-                <td>
-                    <!-- the header qui contien un logo -->
-                    <table width="100%" style="border-spacing:0;">
-                        <tr>
-                            <td style="background-color:#ffffff; padding:10px;text-align:center">
-                                <a href="http://www.alrim.dz/"> <img src="img/logo.png" width="180" alt="Logo"
-                                        title="Logo"> </a>
-                            </td>
-                        </tr>
-
-                    </table>
-
-                </td>
-            </tr>
-
-            <tr>
-                <td>
-                    <a href="http://www.alrim.dz/"><img src="img/gallery/portrait/pic4.jpg" width="600" height="400"
-                            alt="Banner" style="max-width:100% ;"></a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <table width="100%" style="border-spacing: 0;">
-                        <tr>
-                            <td class="three-columns">
-                                <table class="column">
-                                    <tr>
-                                        <td class="padding">
-                                            <table class="content">
-                                                <tr>
-                                                    <td><a href="#"><img class="third-img" src="img/services/01.jpg"
-                                                                width="100" alt=""></a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="padding:10px; ">
-                                                        <p style="font-size:17px;font-weight:bold;">Etude et engenering
-                                                        </p>
-                                                    </td>
-                                                </tr>
-
+                <td align="center">
+    
+                    <div style="display:inline-block; width:100%; max-width:800px; vertical-align:top;" class="width800">
+                        <!-- ID:BG VIEW BROWSER -->
+                        <table align="center" bgcolor="#eeeeee" border="0" cellpadding="0" cellspacing="0"
+                            class="display-width" width="100%" style="max-width:800px;" data-bgcolor="View Browser BG">
+                            <tbody>
+                                <tr>
+                                    <td align="center" class="padding">
+                                        <div style="display:inline-block; width:100%; max-width:600px; vertical-align:top;"
+                                            class="main-width">
+                                            <table align="center" border="0" cellpadding="0" cellspacing="0"
+                                                class="display-width-inner" width="100%" style="max-width:600px;">
+                                                <tbody>
+                                                    <tr>
+                                                        <td height="10"
+                                                            style="mso-line-height-rule:exactly; line-height:10px; font-size:0;">
+                                                            &nbsp;
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <!-- ID:TXT VIEW BROWSER -->
+                                                        <td align="right" class="MsoNormal"
+                                                            style="color:#666666; font-family:Segoe UI, Helvetica Neue, Arial, Verdana, Trebuchet MS, sans-serif; font-size:12px; font-weight:400; letter-spacing:1px;">
+                                                            <a href="#" style="color:#666666; text-decoration:none;" data-color="View Browser" data-size="View Browser"
+                                                                data-min="10" data-max="34"> View In Browser </a>
+                                                        </td>
+                                                        </tr>
+                                                        <tr>
+                                                        <td height="10" style="mso-line-height-rule:exactly; line-height:10px; font-size:0;">
+                                                            &nbsp;
+                                                        </td>
+                                                        </tr>
+                                                        </tbody>
+                                                        </table>
+                                                        </div>
+                                                        
+                                                        </td>
+                                                        </tr>
+                                                        </tbody>
+                                                        </table>
+                                                        </div>
+                                                        
+                                                        </td>
+                                                        </tr>
+                                                        </tbody>
+                                                        </table>
+                                                        <!-- logo -->
+                                                        <table align="center" bgcolor="#eeeeee" border="0" cellpadding="0" cellspacing="0" width="100%" data-module="Menu"
+                                                            data-bgcolor="Main BG">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="center">
+                                                        
+                                                                        <div style="display:inline-block; width:100%; max-width:800px; vertical-align:top;" class="width800">
+                                                                            <!-- ID:BG MENU -->
+                                                                            <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0"
+                                                                                class="display-width" width="100%" style="max-width:800px;" data-bgcolor="Menu BG">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td align="center" class="padding">
+    
+                                        <div style="display:inline-block; width:100%; max-width:600px; vertical-align:top;" class="main-width">
+                                            <table align="center" border="0" class="display-width-inner" cellpadding="0" cellspacing="0" width="100%"
+                                                style="max-width:600px;">
+                                                <tbody>
+                                                    <tr>
+                                                        <td height="15" class="height30" style="mso-line-height-rule:exactly; line-height:15px; font-size:0;">
+                                                            &nbsp;
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" style="width:100%; max-width:100%; font-size:0;">
+                                                            <div style="display:inline-block; max-width:150px; width:100%; vertical-align:top;"
+                                                                class="div-width">
+                                                                <!--TABLE LEFT-->
+                                                                <table align="center" border="0" cellpadding="0" cellspacing="0" class="display-width-child"
+                                                                    width="100%"
+                                                                    style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; width:100%; max-width:100%;">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td align="center">
+                                                                                <table align="center" border="0" cellpadding="0" cellspacing="0"
+                                                                                    style="width:auto !important;">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <!-- ID:TXT MENU -->
+                                                                                            <td align="center" style="color:#e0caca;">
+                                                                                                <a href="#" style="color:#c1b9b9; text-decoration:none;"
+                                                                                                    data-color="Menu"><img src="img/logo.png" alt="150x50"
+                                                                                                        width="200" height="50"
+                                                                                                        style="margin:0; border:0; padding:0; display:block;"></a>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td height="15" class="height30" style="mso-line-height-rule:exactly; line-height:15px; font-size:0;">
+                                                            &nbsp;
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
                                             </table>
-
-
+                                        </div>
+                                        </td>
+                                        </tr>
+                                        </tbody>
+                                        </table>
+                                        </div>
+                                        </td>
+                                        </tr>
+                                        </tbody>
+                                        </table>
+                                        <!-- banner -->
+                                        <table align="center" bgcolor="#eeeeee" border="0" cellpadding="0" cellspacing="0" width="100%" data-module="Header"
+                                            data-bgcolor="Main BG">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="center">
+                                        
+                                                        <div style="display:inline-block; width:100%; max-width:800px; vertical-align:top;" class="width800">
+                                                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="display-width" width="100%"
+                                                                style="max-width:800px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center">
+                                        
+                                                                            <div style="margin:auto;">
+                                                                                <table align="center" border="0" cellpadding="0" cellspacing="0" class="display-width" width="100%"
+                                                                                    style="background-image: url(img/gallery/pic4.jpg); height: 400; background-position: center center; background-repeat: no-repeat;">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td align="center" class="padding">
+                                                                            
+                                                                                                <div style="display:inline-block;width:100%; max-width:600px; vertical-align:top;"
+                                                                                                    class="main-width">
+                                                                                                    <table align="center" border="0" class="display-width-inner" cellpadding="0" cellspacing="0"
+                                                                                                        width="100%" style="max-width:600px;">
+                                                                                                        <tbody>
+                                                                                                            <tr>
+                                                                                                                <td height="100" style="mso-line-height-rule: exactly; line-height: 150px;">
+                                                                                                                </td>
+                                                                                                                </tr>
+                                                                                                            <tr>
+                                                                                                                <td align="center">
+                                                                                                                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="90%"
+                                                                                                                        style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; width:90%; max-width:90%; background-color: #a59f9f6b;">
+                                                                                                                        <tbody>
+                                                                                                                            <tr>
+                                                                                                                                <!-- ID:TXT HEADER HEADING -->
+                                                                                                                                <td align="center" class="MsoNormal"
+                                                                                                                                    style="color:#ffffff; font-family:'Segoe UI', Helvetica Neue, Arial, Verdana, Trebuchet MS, sans-serif; font-size:32px; font-weight:600; letter-spacing:1px; line-height:42px;"
+                                                                                                                                    data-color="Header Heading" data-size="Header Heading" data-min="15" data-max="52">
+                                                                                                                                    EPE ALRIM SPA
+                                                                                                                                </td>
+                                                                                                                            </tr>
+                                                                                                                            <tr>
+                                                                                                                                <td height="10" style="mso-line-height-rule: exactly; line-height:10px; font-size:0;">
+                                                                                                                                    &nbsp;
+                                                                                                                                </td>
+                                                                                                                            </tr>
+                                                                                                                            <tr>
+                                                                                                                                <!-- ID:TXT HEADER CONTENT -->
+                                                                                                                                <td align="center" class="MsoNormal"
+                                                                                                                                    style="color:#ffffff; font-family:'Segoe UI', Helvetica Neue, Arial, Verdana, Trebuchet MS, sans-serif; font-size:14px; font-weight:400; letter-spacing:1px; line-height:24px;"
+                                                                                                                                    data-color="Header Content" data-size="Header Content" data-min="10" data-max="34">
+                                                                                                                                    présente, depuis plus de 75
+                                                                                                                                    ans, dans le paysage
+                                                                                                                                    industriel algérien, peut
+                                                                                                                                    être
+                                                                                                                                    considérée comme
+                                                                                                                                    pionnière de la
+                                                                                                                                    construction métallique, en
+                                                                                                                                    Algérie.
+                                                                                                                                </td>
+                                                                                                                            </tr>
+                                                                                                                            <tr>
+                                                                                                                                <td height="30" style="mso-line-height-rule: exactly; line-height:30px; font-size:0;">
+                                                                                                                                    &nbsp;
+                                                                                                                                </td>
+                                                                                                                            </tr>
+                                                                                                                            <tr>
+                                                                                                                                <td align="center" class="button-width">
+                                                                                                                                    <!-- ID:BTN HEADER BUTTON -->
+                                                                                                                                    <table align="center" bgcolor="#f40f0f" border="0" cellpadding="0" cellspacing="0"
+                                                                                                                                        class="display-button" style="border-radius:5px;" data-bgcolor="Header Button">
+                                                                                                                                        <tbody>
+                                                                                                                                            <tr>
+                                                                                                                                                <td align="center" class="MsoNormal"
+                                                                                                                                                    style="color:#ffffff; font-family:Segoe UI, Arial, Verdana, Trebuchet MS, sans-serif; font-weight:600; padding:10px 12px; font-size:12px; letter-spacing:1px;">
+                                                                                                                                                    <a href="https://www.alrim.dz" style="color:#ffffff; text-decoration:none;"
+                                                                                                                                                        data-color="Header Button Text" data-size="Header Button Text" data-min="10"
+                                                                                                                                                        data-max="32">Read
+                                                                                                                                                        More</a>
+                                                                                                                                                </td>
+                                                                                                                                            </tr>
+                                                                                                                                        </tbody>
+                                                                                                                                    </table>
+                                                                                                                                </td>
+                                                                                                                            </tr>
+                                                                                                                        </tbody>
+                                                                                                                    </table>
+                                                                                                                </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                <td height="150" style="mso-line-height-rule: exactly; line-height: 150px;">
+                                                                                                                    &nbsp;
+                                                                                                                </td>
+                                                                                                            </tr>
+                                                                                                            </tbody>
+                                                                                                            </table>
+                                                                                                            </div>
+                                                                                                            </td>
+                                                                                                            </tr>
+                                                                                                            </tbody>
+                                                                                                            </table>
+                                                                                                            </div>
+                                                                                                            </td>
+                                                                                                            </tr>
+                                                                                                            </tbody>
+                                                                                                            </table>
+                                                                                                            </div>
+                                                                                                            </td>
+                                                                                                            </tr>
+                                                                                                            </tbody>
+                                                                                                            </table>
+                                                        
+                                                        <table align="center" bgcolor="#eeeeee" border="0" cellpadding="0" cellspacing="0"
+                                                            style="opacity:1;position:relative;z-index:0;" width="100%">
+    <tr>
+        <td>
+            <table align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" class="table680"
+                style="background-color:rgb(255, 255, 255);max-width:800px;" width="100%">
+                <tr>
+                    <td>
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-inner" width="600">
+                            <!-- Content -->
+                            <tr>
+                                <td height="70">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-inner" width="600">
+                <!-- Content -->
+                <tr>
+                    <td class="td_600" valign="top">
+                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="295">
+                            <!-- Content -->
+                            <tr>
+                                <td align="left" mc:edit="ab73"
+                                    style="color:rgb(51, 51, 51);font-family:Roboto, Arial, Helvetica, sans-serif;font-size:24px;font-weight:600;line-height:30.6px;text-transform:uppercase;letter-spacing:1px;"
+                                    valign="top">Pourqoui nous ?</td>
+                                </tr>
+                                <tr>
+                                <td style="padding-bottom:20px;padding-top:5px;" valign="top">
+                                    <table align="left" bgcolor="#656565" border="0" cellpadding="0" cellspacing="0"
+                                        style="height:3px;background-color:rgb(101, 101, 101);" width="30">
+                                        <!-- Line -->
+                                        <tr>
+                                            <td style="font-size:0px;padding-top:1px;"> </td>
+                                        </tr>
+                                        <!-- End Line -->
+                                    </table>
+                                </td>
+                                </tr>
+                                <tr>
+                <td align="left" mc:edit="ab74"
+                    style="color:rgb(51, 51, 51);font-family:'open sans', Arial, Helvetica, sans-serif;font-size:13.2167px;font-weight:400;line-height:19.8333px;"
+                    valign="top">
+                    <p>
+                        ALRIM reste à l’écoute at au service de sa clientèle afin de toujours bien la servir, pour mieux la
+                        satisfaire. Pour cela, la Société déploie tous les efforts allant dans le sens du respect du principe lié à
+                        l’obligation de la satisfaction du client.
+                    </p>
+                    <br>
+                    <p>
+                        Par ailleurs, la Société continue de concentrer toute son attention sur l’impératif de poursuite de la politique
+                        de
+                        développement de nouveaux procédés, plus performants, dans le domaine qui est le sien, ce qui lui permettra d’en
+                        devenir le leader incontesté.
+                
+                    </p>
+                </td>
+                </tr>
+            <!-- End Content -->
+            <tr>
+                <td style="padding-top:35px;padding-bottom:70px;" valign="top">
+                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="130" style="height:45px;">
+                        <tr>
+                            <td valign="top">
+                                <table align="center" border="0" cellpadding="0" cellspacing="0"
+                                    style="height:45px;background-color:rgb(237, 51, 37);" width="130">
+                                    <tr>
+                                        <td align="center" height="35" mc:edit="ab75"
+                                            style="color:rgb(255, 255, 255);font-family:Roboto, Arial, Helvetica, Arial, Helvetica, sans-serif;font-size:13.2167px;font-weight:400;line-height:19.8333px;"
+                                            valign="middle"><a href="#"
+                                                style="color:rgb(255, 255, 255);text-decoration:none;text-transform:uppercase;letter-spacing:.5px;">Demande
+                                                un
+                                                devis</a>
                                         </td>
                                     </tr>
                                 </table>
-                                <table class="column">
-                                    <tr>
-                                        <td class="padding">
-                                            <table class="content">
-                                                <tr>
-                                                    <td><a href="#"><img class="third-img" src="img/services/03.jpg"
-                                                                width="100" alt=""></a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="padding:10px; ">
-                                                        <p style="font-size:17px;font-weight:bold;">reselisation tous
-                                                            corps d'etat
-                                                        </p>
-                                                    </td>
-                                                </tr>
-
-                                            </table>
-
-
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table class="column">
-                                    <tr>
-                                        <td class="padding">
-                                            <table class="content">
-                                                <tr>
-                                                    <td><a href="#"><img class="third-img-last"
-                                                                src="img/services/02.jpg" width="100" alt=""></a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="padding:10px; ">
-                                                        <p style="font-size:17px;font-weight:bold;">charpent metallique
-                                                        </p>
-                                                    </td>
-                                                </tr>
-
-                                            </table>
-
-
-                                        </td>
-                                    </tr>
-                                </table>
                             </td>
                         </tr>
+                        <!-- End Content -->
                     </table>
                 </td>
             </tr>
+            </table>
+            </td>
+            <td class="td_600">
+                <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="305">
+                    <tr>
+                        <td>
+                            <table align="right" border="0" cellpadding="0" cellspacing="0" class="tablep_p2" width="275">
+                                <!-- Image -->
+                                <tr>
+                                    <td align="left" valign="top"><img alt="img" class="img2" height="327" mc:edit="ph30"
+                                            src="img/gallery/portrait/pic4.jpg"
+                                            style="border: 0px; display: block; font-size: 0px; line-height: 0px;" width="275">
+                                    </td>
+                                </tr>
+                                <!-- End Image -->
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            
+            </tr>
+            </table>
+            </td>
+            </tr>
+            </table>
+            </td>
+            </tr>
+            </table>
+            </td>
+            </tr>
+            </table>
 
+            <table align="center" bgcolor="#eeeeee" border="0" cellpadding="0" cellspacing="0"
+                style="opacity:1;position:relative;z-index:0;" width="100%">
+                <tr>
+                    <td>
+                        <table align="center" bgcolor="#ED3325" border="0" cellpadding="0" cellspacing="0" class="table680"
+                            style="background-color:rgb(237, 51, 37);max-width:800px;" width="100%">
+                            <tr>
+                                <td height="6">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-inner"
+                                        width="600">
+                                        <tr>
+                                            <td>
+                                                <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1"
+                                                    width="600">
+                                                    <!-- Content -->
+                                                    <tr>
+                                                        <td align="left" mc:edit="ab71"
+                                                            style="color:rgb(255, 255, 255);font-family:Roboto, Arial, Helvetica, sans-serif;font-size:18px;font-weight:400;line-height:24.6px;text-transform:uppercase;letter-spacing:1px;"
+                                                            valign="top">Prêt pour un nouveau projet?
+                                                            Consultez notre service ci-dessous.
+                                                        </td>
+                                                    </tr>
+                                                    <!-- End Content -->
+                                                </table>
+                                            </td>
+                                        </tr>
+            
+                    <tr>
+                        <td height="10">
+                </td>
+                </tr>
+                </table>
+                </td>
+                </tr>
+                </table>
+                </td>
+                </tr>
+                </table>
+                
+                
+                
+                
+                
+                <table align="center" bgcolor="#eeeeee" border="0" cellpadding="0" cellspacing="0"
+                    style="opacity:1;position:relative;z-index:0;" width="100%">
+                    <tr>
+                        <td>
+                            <table align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" class="table680"
+                                style="max-width:800px;" width="100%">
+                                <tr>
+                                    <td>
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-inner"
+                                            width="600">
+                                            <!-- Content -->
+                                            <tr>
+                                                <td height="16">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                <td valign="top">
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table1" width="600">
+                                        <!-- Content -->
+                                        <tr>
+                                            <td align="center" class="text-center" mc:edit="ab36"
+                                                style="color:rgb(51, 51, 51);font-family:Roboto, Arial, Helvetica, sans-serif;font-size:24px;font-weight:600;line-height:30.6px;text-transform:uppercase;letter-spacing:1px;"
+                                                valign="top">Our Service</td>
+                                            </tr>
+                                            <!-- End Content -->
+                                            </table>
+                                            </td>
+                                            </tr>
+                                            <tr>
+                                <td style="padding-bottom:20px;padding-top:5px;" valign="top">
+                                    <table align="center" bgcolor="#656565" border="0" cellpadding="0" cellspacing="0" class="table"
+                                        style="height:3px;background-color:rgb(101, 101, 101);" width="30">
+                                        <!-- Line -->
+                                        <tr>
+                                            <td style="font-size:0px;padding-top:1px;"> </td>
+                                        </tr>
+                                        <!-- End Line -->
+                                    </table>
+                                </td>
+                                </tr>
             <tr>
                 <td>
-                    <table width="100%" style="border-spacing:0;">
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table1" width="600">
+                        <!-- Content -->
                         <tr>
-                            <td style="background-color: #da3838; padding:15px; text-align:center;">
-                                <p style="font-size:18px; color:#ffffff;Margin-bottom:13px;">
-                                    Connecte with us </p>
-                                <a href="#"><img src="img/white-facebook.png" alt="" width="30"></a>
-                                <a href="#"><img src="img/white-instagram.png" alt="" width="30"></a>
-                                <a href="#"><img src="img/white-linkedin.png" alt="" width="30"></a>
-                                <a href="#"><img src="img/white-twitter.png" alt="" width="30"></a>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td style="background-color:#efefefef">
-                    <table width="100%" style="border-spacing:0;">
-                        <tr>
-                            <td style="padding:20px;text-align:center">
-                                <a href=""><img src="img/logo.png" alt="" width="160"></a>
-                                <p style="font: size 16px;Margin-top:18px; Margin-bottom:10px;"> Alrim spa Html Email
-                                </p>
-                                <p style="font: size 16px;Margin-top:18px; Margin: bottom 10px;"> Zone astruille ouad
-                                    smar , Alger </p>
-                                <p><a style="mailto:'ahlem.chelli@alrim.dz'"> Marketin.contact @alrim.dz </a> </p>
-                                <p><a style="tel:0676558079"> +321 6 76 55 80 79 </a> </p>
-
-                            </td>
-                        </tr>
-                        <tr>
-                            <td height="20" style="background-color: #da3838;"></td>
-                        </tr>
-
-                    </table>
-                </td>
-            </tr>
+                            <td class="td_600">
+                                <table align="center" border="0" cellpadding="0" cellspacing="0" class="table2" width="315">
+                                    <tr>
+                                        <td>
+                                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1"
+                                                width="285" bgcolor="#333333" style="background-color:rgb(51, 51, 51);">
+                                                <!-- Content -->
+                                                <tr>
+                                                    <td valign="top"
+                                                        style="padding-left:25px;padding-right:25px;padding-top:28px;padding-bottom:25px;  background-image:url(img/services/01.jpg);background-position:100% 100%;background-size:cover;">
+            
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="235"
+                                                            class="table1">
+                                                            <tr>
+            
+                                                                <td valign="top" class="td_600">
+                                                                    <!-- Content -->
+                                                                    <table align="left" border="0" cellpadding="0" cellspacing="0"
+                                                                        width="185" class="table1" width="133"
+                                                                           
+                                                                            class="table1">
+                                                                            <tr>
+                                                                                <td align="left" class="text-center" mc:edit="ab38"
+                                                                                    style="color:rgb(255, 255, 255);font-family:Roboto, Arial, Helvetica, sans-serif;font-size:18px;font-weight:500;line-height:1000px;text-transform:uppercase;letter-spacing:1px;"
+                                                                                    valign="top"></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td align="left" class="text-center" mc:edit="ab39"
+                                                                                    style="color:rgb(255, 255, 255); background-color: #666666; font-family:'open sans', Arial, Helvetica, sans-serif;font-size:13.2167px;font-weight:400;line-height:19.8333px;padding-top:15px;"
+                                                                                    valign="top"> Creative design </td>
+                                                                            </tr>
+                                                                            <!-- End Content -->
+                                                                        </table>
+                                                                        <!-- End Content -->
+                                                                    </td>
+                                                                    </tr>
+                                                                    </table>
+                                                                    <!-- End Content -->
+                                                                    </td>
+                                                                    </tr>
+                                                                    </table>
+                                                                    </td>
+                                                                    </tr>
+                                    </table>
+                                    </td>
+                                    <td class="td_600" valign="top">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="285" bgcolor="#ED3325"
+                                            style="background-color:rgb(237, 51, 37);">
+                                            <tr>
+                                                <td valign="top" style="padding-left:25px;padding-right:25px;padding-top:28px;padding-bottom:25px;">
+                                    
+                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="235" class="table1">
+                                                        <tr>
+                                                            <td valign="top" class="td_600">
+                                    
+                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" width="50" class="table1">
+                                                                    <tr>
+                                                                        <td valign="top">
+                                                                            <!-- Image -->
+                                                                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="25" class="table3">
+                                                                                <tr>
+                                                                                    <td align="center" valign="top"><img alt="img" height="26" mc:edit="ph17"
+                                                                                            src="https://mcusercontent.com/8422eaf214b6ca56027a72439/images/b75edec3-9365-407c-b0f1-19c5e6e410c2.png"
+                                                                                            style="border: 0px; display: block; font-size: 0px; line-height: 0px;" width="25">
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                            <!-- End images -->
+                                                                        </td>
+                                                                        </tr>
+                                                                        </table>
+                                                                        </td>
+                                                                        <td valign="top" class="td_600">
+                                                                            <!-- Content -->
+                                                                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="185" class="table1">
+                                                                                <tr>
+                                                        <td align="left" class="text-center" mc:edit="ab40"
+                                                            style="color:rgb(255, 255, 255);font-family:Roboto, Arial, Helvetica, sans-serif;font-size:18px;font-weight:500;line-height:24.6px;text-transform:uppercase;letter-spacing:1px;"
+                                                            valign="top">Creative design</td>
+                                                        </tr>
+                                                        <tr>
+                                                        <td align="left" class="text-center" mc:edit="ab41"
+                                                            style="color:rgb(255, 255, 255);font-family:'open sans', Arial, Helvetica, sans-serif;font-size:13.2167px;font-weight:400;line-height:19.8333px;padding-top:15px;"
+                                                            valign="top">Lorem ipsum dolor amets sit just oconse adipiscing elies template</td>
+                                                        </tr>
+                                                        <!-- End Content -->
+                                                        </table>
+                                                        <!-- End Content -->
+                                                        </td>
+                                                        </tr>
+                                            </table>
+                                            <!-- End Content -->
+                                            </td>
+                                            </tr>
+                                            </table>
+                                            </td>
+                                            </tr>
+                                            </table>
+                                            </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding-top:30px;">
+                                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table1" width="600">
+                                                        <!-- Content -->
+                                                        <tr>
+                                                            <td class="td_600">
+                                                                <table align="center" border="0" cellpadding="0" cellspacing="0" class="table2" width="315">
+                                                                    <tr>
+                                                                        <td>
+                                                                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1"
+                                                                                width="285" bgcolor="#F5F5F5" style="background-color:rgb(245, 245, 245);">
+                                                                                <tr>
+                                                                                    <td valign="top"
+                                                                                        style="padding-left:25px;padding-right:25px;padding-top:28px;padding-bottom:25px;">
+                                            
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="235" class="table1">
+                                                            <tr>
+                                                                <td valign="top" class="td_600">
+                                            
+                                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="50" class="table1">
+                                                                        <tr>
+                                                                            <td valign="top">
+                                                                                <!-- Image -->
+                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" width="26" class="table3">
+                                                                                    <tr>
+                                                                                        <td align="center" valign="top"><img alt="img" height="24" mc:edit="ph18"
+                                                                                                src="https://mcusercontent.com/8422eaf214b6ca56027a72439/images/d3478207-b45b-40c0-ac54-2e660b96da3f.png"
+                                                                                                style="border: 0px; display: block; font-size: 0px; line-height: 0px;" width="26">
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                                <!-- End images -->
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                    </td>
+                                                                    <td valign="top" class="td_600">
+                                                                        <!-- Content -->
+                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="185" class="table1">
+                                                                            <tr>
+                                                                                <td align="left" class="text-center" mc:edit="ab42"
+                                                                                    style="color:rgb(51, 51, 51);font-family:Roboto, Arial, Helvetica, sans-serif;font-size:18px;font-weight:500;line-height:24.6px;text-transform:uppercase;letter-spacing:1px;"
+                                                                                    valign="top">Creative design</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td align="left" class="text-center" mc:edit="ab43"
+                                                                                    style="color:rgb(51, 51, 51);font-family:'open sans', Arial, Helvetica, sans-serif;font-size:13.2167px;font-weight:400;line-height:19.8333px;padding-top:15px;"
+                                                                                    valign="top">Lorem ipsum dolor amets sit just oconse adipiscing elies template</td>
+                                                                            </tr>
+                                                                            <!-- End Content -->
+                                                                        </table>
+                                                                        <!-- End Content -->
+                                                                </td>
+                                                                </tr>
+                                                                </table>
+                                                        <!-- End Content -->
+                                                    </td>
+                                                    </tr>
+                                                    </table>
+                                                    </td>
+                                                    </tr>
+                                            </table>
+                                            </td>
+                                            <td class="td_600" valign="top">
+                                                <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="285" bgcolor="#F5F5F5"
+                                                    style="background-color:rgb(245, 245, 245);">
+                                                    <tr>
+                                                        <td valign="top" style="padding-left:25px;padding-right:25px;padding-top:28px;padding-bottom:25px;">
+                                                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="235" class="table1">
+                                                                <tr>
+                                                                    <td valign="top" class="td_600">
+                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="50" class="table1">
+                                                                            <tr>
+                                                                                <td valign="top">
+                                                                                    <!-- Image -->
+                                                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="28" class="table3">
+                                                                                        <tr>
+                                                                                            <td align="center" valign="top"><img alt="img" height="30" mc:edit="ph19"
+                                                                                                    src="https://mcusercontent.com/8422eaf214b6ca56027a72439/images/24ccaaf0-85bc-419e-846b-35c5efcde91e.png"
+                                                                                                    style="border: 0px; display: block; font-size: 0px; line-height: 0px;" width="28">
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </table>
+                                                            <!-- End images -->
+                                                        </td>
+                                                        </tr>
+                                                </table>
+                                                </td>
+                                                <td valign="top" class="td_600">
+                                                    <!-- Content -->
+                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="185" class="table1">
+                                                    <tr>
+                                                        <td align="left" class="text-center" mc:edit="ab44"
+                                                            style="color:rgb(51, 51, 51);font-family:Roboto, Arial, Helvetica, sans-serif;font-size:18px;font-weight:500;line-height:24.6px;text-transform:uppercase;letter-spacing:1px;"
+                                                            valign="top">Creative design</td>
+                                                        </tr>
+                                                        <tr>
+                                                        <td align="left" class="text-center" mc:edit="ab45"
+                                                            style="color:rgb(51, 51, 51);font-family:'open sans', Arial, Helvetica, sans-serif;font-size:13.2167px;font-weight:400;line-height:19.8333px;padding-top:15px;"
+                                                            valign="top">Lorem ipsum dolor amets sit just oconse adipiscing elies template</td>
+                                                        </tr>
+                                                        <!-- End Content -->
+                                                        </table>
+                                                        <!-- End Content -->
+                                                        </td>
+                                                        </tr>
+                                                        </table>
+                                                        <!-- End Content -->
+                                                        </td>
+                                                        </tr>
+                                                        </table>
+                                                        </td>
+                                                        </tr>
+                                                        </table>
+                                                        </td>
+                                                        </tr>
+                                                        </table>
+                                                        </td>
+                                                        </tr>
+                                                        <tr>
+        <td height="70">
+        </td>
+        </tr>
         </table>
-    </div>
-</center>
+        </td>
+        </tr>
+        </table>
 
 </body>
-
 </html>
-
